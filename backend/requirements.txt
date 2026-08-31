@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+paho-mqtt
+sqlalchemy
+psycopg2
+pandas
+xgboost
+ortools
+python-dotenv
