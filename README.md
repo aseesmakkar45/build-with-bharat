@@ -42,7 +42,7 @@
 
 # 📖 Project Overview
 
-![EcoGrid AI Dashboard UI](docs/assets/ui_mockup.jpg)
+![EcoGrid AI Dashboard UI](docs/assets/ui_mockup.png)
 
 **EcoGrid AI Copilot** is a state-of-the-art energy management system built to tackle the challenges of modern microgrid orchestration. Built as a comprehensive solution for the "Build with Bharat" hackathon, the platform acts as an intelligent bridge between volatile renewable energy sources (Solar PV), energy storage (BESS), and dynamic campus loads. 
 
@@ -54,7 +54,7 @@ To provide operators with complete visibility, the system features a stunning, h
 
 # ✨ Core Features
 
-![EcoGrid AI Features Diagram](docs/assets/features.jpg)
+![EcoGrid AI Features Diagram](docs/assets/features.png)
 
 - **Live Animated Topology**: A premium, dark-mode SVG network graph with moving, glowing energy particles that visually represent real-time power flow between Solar, Grid, Battery, and Campus loads.
 - **Predictive Energy Forecasting**: Analyzes historical weather and load data to accurately predict solar generation and campus power consumption.
@@ -67,7 +67,7 @@ To provide operators with complete visibility, the system features a stunning, h
 
 # 🏗 System Architecture
 
-![EcoGrid AI System Flowchart](docs/assets/architecture.jpg)
+![EcoGrid AI System Flowchart](docs/assets/architecture.png)
 
 The application is built on a high-performance **FastAPI** backend that acts as the central nerve center. It continuously ingests simulated hardware telemetry via a background worker thread. 
 
@@ -76,6 +76,8 @@ The analytical engine executes hourly optimizations using **OR-Tools**, adjustin
 ---
 
 # ⚙️ How It Works
+
+![EcoGrid AI Workflow](docs/assets/workflow.png)
 
 ### 1. Hardware Telemetry Simulation
 The `simulator.py` script continuously generates realistic power metrics (kW) with localized variance, simulating the behavior of a live solar array, campus buildings, and a battery management system.
