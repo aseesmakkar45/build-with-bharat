@@ -42,6 +42,8 @@
 
 # 📖 Project Overview
 
+![EcoGrid AI Dashboard UI](docs/assets/ui_mockup.jpg)
+
 **EcoGrid AI Copilot** is a state-of-the-art energy management system built to tackle the challenges of modern microgrid orchestration. Built as a comprehensive solution for the "Build with Bharat" hackathon, the platform acts as an intelligent bridge between volatile renewable energy sources (Solar PV), energy storage (BESS), and dynamic campus loads. 
 
 By leveraging predictive machine learning models, EcoGrid forecasts energy supply and demand 24 hours into the future. This forecasted data is then fed into an advanced linear optimization engine (Google OR-Tools), which computes the most cost-effective and carbon-efficient schedule for charging and discharging the central battery system.
@@ -51,6 +53,8 @@ To provide operators with complete visibility, the system features a stunning, h
 ---
 
 # ✨ Core Features
+
+![EcoGrid AI Features Diagram](docs/assets/features.jpg)
 
 - **Live Animated Topology**: A premium, dark-mode SVG network graph with moving, glowing energy particles that visually represent real-time power flow between Solar, Grid, Battery, and Campus loads.
 - **Predictive Energy Forecasting**: Analyzes historical weather and load data to accurately predict solar generation and campus power consumption.
@@ -62,6 +66,8 @@ To provide operators with complete visibility, the system features a stunning, h
 ---
 
 # 🏗 System Architecture
+
+![EcoGrid AI System Flowchart](docs/assets/architecture.jpg)
 
 The application is built on a high-performance **FastAPI** backend that acts as the central nerve center. It continuously ingests simulated hardware telemetry via a background worker thread. 
 
